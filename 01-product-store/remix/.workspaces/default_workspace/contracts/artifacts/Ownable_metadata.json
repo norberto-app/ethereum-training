@@ -1,0 +1,63 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "isOwner",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/EventTrigger.sol": "Ownable"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/EventTrigger.sol": {
+			"keccak256": "0x272050a2097933ea9589a553c12ffd2499985a75a914942fa8fe97196c33bb46",
+			"urls": [
+				"bzz-raw://8468bd1e57ec6870f53b757858898d77682fd2149eff2f59fe475942a6a07a7e",
+				"dweb:/ipfs/QmSV4kfkKfPQnVZYuScpiH5M1EKaxa1K4MgqwwaqAtM4QC"
+			]
+		}
+	},
+	"version": 1
+}
